@@ -1,0 +1,24 @@
+{
+  "name": "frame-v",
+  "version": "1.0.0",
+  "description": "A Mini Framework (Baby Vue)",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework",
+    "frame.js"
+  ],
+  "author": "gitborlando",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "es6-proxy-polyfill": "^2.1.1"
+  }
+}
