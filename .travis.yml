@@ -5,6 +5,8 @@ node_js:
 
 install:
   - npm install
+  
+script: true
 
 nofications:
   email: false
