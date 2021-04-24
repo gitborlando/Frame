@@ -6,9 +6,6 @@ node_js:
 install:
   - npm install
 
-script: 
-  - npm run test
-
 nofications:
   email: false
 
