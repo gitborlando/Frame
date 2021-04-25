@@ -1,1 +1,3 @@
-### For introduce redirect to https://gitborlando.cn please
+### __useage: npm i frame-v__  
+
+### For more introduction redirect to https://gitborlando.cn please
