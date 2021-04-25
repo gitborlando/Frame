@@ -17,5 +17,5 @@ module.exports = {
             loader: 'babel-loader'  
         }]  
     },
-    target: false,
+    target: false, 
 }
