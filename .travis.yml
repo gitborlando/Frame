@@ -6,9 +6,9 @@ node_js:
 install:
   - npm install
 
-script:
-  - npm build
-  - npm publish
+script:   
+  - npm run build
+  - npm run publish
 
 nofications:
   email: false
