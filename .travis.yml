@@ -6,6 +6,10 @@ node_js:
 install:
   - npm install
 
+script:
+  - build
+  - publish
+
 nofications:
   email: false
 

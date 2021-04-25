@@ -1,9 +1,12 @@
 {
   "name": "frame-v",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Mini Framework (Baby Vue)",
   "main": "./dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack",
+    "publish": "npm publish"
+  },
   "keywords": [
     "framework",
     "frame.js"
@@ -13,7 +16,9 @@
   "devDependencies": {
     "@babel/core": "^7.13.16",
     "@babel/preset-env": "^7.13.15",
-    "babel-loader": "^8.2.2"
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
