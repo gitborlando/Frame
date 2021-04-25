@@ -8,8 +8,13 @@ install:
 
 script:   
   - npm run build
-  - npm run publish
 
-nofications:
-  email: false
+deploy:
+  provider: npm
+  email: gitborlando@gmail.com
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+    all_branches: true
+
 
