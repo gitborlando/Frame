@@ -1,5 +1,5 @@
 {
-  "name": "framex",
+  "name": "framex-t",
   "version": "1.0.0",
   "description": "A Mini Framework (Baby Vue)",
   "main": "./dist/index.js",
