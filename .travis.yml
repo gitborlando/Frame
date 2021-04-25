@@ -7,8 +7,8 @@ install:
   - npm install
 
 script:
-  - build
-  - publish
+  - npm build
+  - npm publish
 
 nofications:
   email: false
